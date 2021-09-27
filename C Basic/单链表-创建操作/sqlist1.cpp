@@ -70,7 +70,11 @@ LinkList Tail_Insert(LinkList &L){
         p=q;
         scanf("%d",&x);
     }
+<<<<<<< HEAD
 
+=======
+  return L;
+>>>>>>> 39df828 (Algorithm)
 }
 bool LList_print(LinkList &L)
 {

@@ -1,8 +1,3 @@
 # Develop
-I'm noob
+update
 
-<<<<<<< HEAD
-冲突
-=======
-冲突解决
->>>>>>> feature

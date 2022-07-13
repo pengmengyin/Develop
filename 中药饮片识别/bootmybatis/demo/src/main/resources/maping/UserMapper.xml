@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.peng.mapper.UserMapper">
+
+
+    <select id="findUserTel" parameterType="Long" resultType="User">
+        select *
+        from user
+        where tel =#{userTel}
+    </select>
+
+
+    <select id="findPwd" resultType="User">
+        select *
+        from user
+        where tel =#{userTel} and pwd = #{userPwd}
+    </select>
+
+    <select id="inserData" resultType="User">
+        insert into user(id,tel,pwd,imgUrl,score)
+        value  (null,#{userTel},#{userPwd},'http://101.201.118.42:8080/images/headimg/f010c405a14845d3ae8a6413cc1f38d2_oHIz23egjBjw23ed5288a3d85d73d320d2e6d2548289.jpeg',0)
+    </select>
+
+
+    <select id="updataPwd">
+        update  user
+        set pwd = #{userPwd}
+        where tel = #{userTel}
+    </select>
+</mapper>

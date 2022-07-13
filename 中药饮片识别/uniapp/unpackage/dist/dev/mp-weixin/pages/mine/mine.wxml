@@ -1,0 +1,1 @@
+<view class="userinfo"><image class="backImg" src="../../static/true.jpg" alt></image><user-detial vue-id="bae1c640-1" bind:__l="__l"></user-detial></view>

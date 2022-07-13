@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/study/study",
+    "pages/study/mistake",
+    "pages/index/index",
+    "pages/site/scene",
+    "pages/search/Search",
+    "pages/search/Search-list",
+    "pages/index/news-list",
+    "pages/phone/camera1",
+    "pages/study/introduce",
+    "pages/study/quit",
+    "pages/study/subject",
+    "pages/mine/mine",
+    "pages/mine/edit",
+    "pages/Forget-pwd/Forget-pwd",
+    "pages/Forget-pwd/RecoveryBtn",
+    "pages/register/register",
+    "pages/site/site",
+    "pages/kind/kind"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "中药识别",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#007AFF",
+    "color": "#555555",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icon/shouye.png",
+        "selectedIconPath": "static/icon/shouye1.png"
+      },
+      {
+        "text": "趣味学习",
+        "pagePath": "pages/study/study",
+        "iconPath": "static/icon/study.png",
+        "selectedIconPath": "static/icon/study1.png"
+      },
+      {
+        "text": "个人页面",
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/icon/mine.png",
+        "selectedIconPath": "static/icon/mine1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

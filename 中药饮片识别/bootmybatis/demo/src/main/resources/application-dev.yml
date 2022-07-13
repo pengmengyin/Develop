@@ -1,0 +1,46 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+    multipart:
+      #是否启用文件上传功能
+      enabled: true
+      #指定文件写入磁盘后的阈值，默认为0
+      file-size-threshold: 0
+      #指定上传文件大小， 默认1M
+      max-file-size: 50Mb
+      #指定multipart/form-data请求允许的最大大小， 默认10M
+      max-request-size: 100Mb
+      #是否在文件或参数访问时懒惰地解析多部分请求
+      resolve-lazily: false
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zhongyao?serverTimezone=GMT%2B8
+    username: root
+    password: "!Pmy1999"
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
+
+
+
+
+    static-path-pattern: /static/**
+
+
+mybatis:
+  mapper-locations: classpath:/maping/*Mapper.xml
+  type-aliases-package: com.peng.entity
+
+#showSql
+logging:
+  level:
+    com:
+      peng:
+        mapper : debug
+
+files:
+  upload:
+    path

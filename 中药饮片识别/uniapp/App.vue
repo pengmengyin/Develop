@@ -1,0 +1,24 @@
+<script>
+	export default {
+		onLaunch: function() {
+			console.log('App Launch')
+		},
+		onShow: function() {
+			console.log('App Show')
+		},
+		onHide: function() {
+			console.log('App Hide')
+		},
+		created(){
+			this.$store.commit('INIT_USER');
+		}
+	}
+
+</script>
+
+<style>
+	/*每个页面公共css */
+	@import url("./common/iconfont.css");
+	@import url("colorui/main.css");
+	@import url("colorui/icon.css");
+</style>

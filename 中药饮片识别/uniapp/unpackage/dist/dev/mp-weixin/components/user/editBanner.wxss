@@ -1,0 +1,12 @@
+
+.editbanner{
+	background-color:  white;
+	padding: 30rpx 10rpx;
+	border-bottom: 1px solid #eee;
+	font-size: 28rpx;
+	color: #333;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+

@@ -1,0 +1,21 @@
+git init 
+git add .
+git commit  
+git clone 
+git status 
+git diff 暂存区和工作区的区别
+git reset 版本回退
+git rm 
+git mv 
+git log 历史提交记录
+git blame <file> 指定文件历史修改记录
+git pull
+git push
+git branch (branchname) 创建分支
+git checkout (branchname) 切换分支
+git merge 合并分支
+git branch 列出分支，其中带“*”号的表示当前分支
+git branch -d (branchname) 删除分支
+git tag -a v1.0 打标签
+
+

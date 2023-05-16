@@ -1,0 +1,47 @@
+
+.identification {
+	width: 100%;
+}
+.introduce {
+	height: 40%;
+}
+.txt {
+	font-size: 50rpx;
+	text-align: center;
+	padding: 40rpx;
+}
+.phone {
+	width: 70%;
+	margin: 0 auto;
+	border: 4rpx solid #AAAAAA;
+	margin-bottom: 50rpx;
+}
+.but1 {
+	width: 500rpx;
+	margin: 20rpx auto;
+	margin-top: 10rpx;
+}
+.btn2 {
+	width: 80%;
+	background-color: #2979FF;
+	color: white;
+	margin-bottom: 100rpx;
+}
+.result {
+	width: 650rpx;
+	margin: 0px auto;
+	border-radius: 25rpx;
+}
+.top {
+	background-color: #AAAAAA;
+	height: 60rpx;
+	padding: 8rpx;
+}
+.btm {
+	background-color: white;
+	height: 100rpx;
+	font-size: 32rpx;
+	text-align: center;
+	padding: 20rpx;
+}
+

@@ -1,0 +1,1 @@
+<view class="content"><view class="img"><image src="../../static/student/quit.jpg"></image></view><view class="txt"><text>{{"积分+"+score}}</text></view><view class="btn"><button data-event-opts="{{[['tap',[['gostudy']]]]}}" bindtap="__e">返回</button></view></view>

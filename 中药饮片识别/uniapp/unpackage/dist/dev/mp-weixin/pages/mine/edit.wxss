@@ -1,0 +1,20 @@
+
+.editviews ._a {
+	color: #333;
+}
+.editviews image {
+	height: 92rpx;
+	width: 92rpx;
+	border-radius: 50%;
+}
+.loginout {
+	margin-top: 40rpx;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #999;
+	padding: 30rpx 0;
+	font-size: 30rpx;
+}
+

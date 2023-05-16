@@ -1,0 +1,44 @@
+
+.seach{
+	display: flex;
+	flex-direction: column;
+	width: 100%vw;
+	height: 100%vh;
+	overflow: hidden;
+}
+._section{
+	flex: 1;
+	overflow: hidden;
+	background-color: #F5F5F5;
+}
+.search-history ._h2{
+	position: relative;
+	padding: 40rpx;
+	font-weight: 400;
+	font-size: 36rpx;
+}
+.search-history ._h2 ._i{
+	padding-right:14rpx;
+	padding-top: 9rpx;
+	width: 40rpx;
+	color: #82848A;
+	font-size: 36rpx;
+	float: left
+}
+.search-history ._h2 ._span:last-child{
+	position: absolute;
+	right: 40rpx;
+}
+.search-history ._ul{
+	padding: 10rpx 20rpx;
+	display: flex;
+	flex-wrap: wrap;
+}
+.search-history ._ul ._li{
+	margin: 20rpx;
+	font-size:28rpx ;
+	border: 1px solid #ccc;
+	padding: 6rpx 12rpx;
+	list-style-type: none;
+}
+

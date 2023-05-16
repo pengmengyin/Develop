@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的界面",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-popup": "/uni_modules/uni-popup/components/uni-popup/uni-popup",
+    "uni-popup-dialog": "/uni_modules/uni-popup/components/uni-popup-dialog/uni-popup-dialog",
+    "edit-banner": "/components/user/editBanner"
+  }
+}

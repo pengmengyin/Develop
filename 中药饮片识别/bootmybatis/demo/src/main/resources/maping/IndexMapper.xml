@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.peng.mapper.IndexMapper">
+    <select id="search" resultType="News">
+        select *
+        from news
+        where id = #{uid}
+    </select>
+    <select id="searchstone" resultType="Stone">
+        select *
+        from stone
+    </select>
+
+    <select id="searchscene" resultType="Views">
+        select *
+        from scene
+    </select>
+    <select id="searchlocal" resultType="Local">
+        select *
+        from local
+        where id = #{uid}
+    </select>
+</mapper>

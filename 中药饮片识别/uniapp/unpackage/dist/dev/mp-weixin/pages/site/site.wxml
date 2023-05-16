@@ -1,0 +1,1 @@
+<view class="content"><view class="outside"><block wx:for="{{scene}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['goSearchList',['$0'],[[['scene','',index,'id']]]]]]]}}" class="scene" bindtap="__e"><image src="{{item.src}}"></image><text class="introduce">{{item.name}}</text></view></block></view></view>

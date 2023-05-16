@@ -1,0 +1,51 @@
+server:
+  port: 8080
+spring:
+  thymeleaf:
+    check-template: false
+    check-template-location: false
+
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: "!Pmy1999"
+    url: jdbc:mysql://localhost:3306/zkr?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC&autoReconnect=true&failOverReadOnly=false&serverTimezone=Asia/Shanghai
+    #url: jdbc:mysql://localhost:3306/zkr?useUnicode=true&characterEncoding=utf8&useSSL=false&failOverReadOnly=false&serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+
+
+  application:
+    name: file_upload_download
+    servlet:
+      context-path: /
+      multipart:
+        #是否启用文件上传功能
+        enabled: true
+        #指定文件写入磁盘后的阈值，默认为0
+        file-size-threshold: 0
+        #指定上传文件大小， 默认1M
+        max-file-size: 50Mb
+        #指定multipart/form-data请求允许的最大大小， 默认10M
+        max-request-size: 100Mb
+        #是否在文件或参数访问时懒惰地解析多部分请求
+        resolve-lazily: false
+
+  mvc:
+    static-path-pattern: /static/**
+
+mybatis:
+  mapper-locations: classpath:maping/*Mapper.xml
+  type-aliases-package: com.peng.entity
+files:
+  upload:
+    path
+#showSql
+logging:
+  level:
+    com:
+      peng:
+        mapper : debug
+
+
+
+

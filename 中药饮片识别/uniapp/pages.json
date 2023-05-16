@@ -1,0 +1,247 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {				
+			}
+		}, 
+		{
+			"path": "pages/study/study",
+			"style": {
+				"navigationBarTitleText": "趣味学习",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/study/mistake",
+			"style": {
+				"navigationBarTitleText": "错题",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/site/scene",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/search/Search",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/search/Search-list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/index/news-list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		
+		},
+		{
+			"path": "pages/phone/camera1",
+			"style": {
+				"navigationBarTitleText": "拍照识别",
+				"enablePullDownRefresh": false
+			}
+
+		},
+
+		{
+				"path": "pages/study/introduce",
+				"style": {
+					"navigationBarTitleText": "趣味学习",
+					"enablePullDownRefresh": false
+			}
+
+		},
+			// {
+			// 	"path": "pages/study/prosit",
+			// 	"style": {
+			// 		"navigationBarTitleText": "趣味学习",
+			// 		"enablePullDownRefresh": false
+			// 	}
+
+			// },
+			
+			// {
+			// 	"path": "pages/study/death",
+			// 	"style": {
+			// 		"navigationBarTitleText": "趣味学习",
+			// 		"enablePullDownRefresh": false
+			// 	}
+
+			// },
+
+
+			// {
+			// 	"path": "pages/study/revive",
+			// 	"style": {
+			// 		"navigationBarTitleText": "趣味学习",
+			// 		"enablePullDownRefresh": false
+			// 	}
+
+			// },
+			{
+				"path": "pages/study/quit",
+				"style": {
+					"navigationBarTitleText": "趣味学习",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "pages/study/subject",
+				"style": {
+					"navigationBarTitleText": "趣味学习",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "pages/mine/mine",
+				"style": {
+					"navigationBarTitleText": "我的界面",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "pages/mine/edit",
+				"style": {
+					"navigationBarTitleText": "我的界面",
+					"enablePullDownRefresh": false
+				}
+			
+			},
+
+
+
+
+			// {
+			// 	"path": "pages/login/login",
+			// 	"style": {
+			// 		"navigationBarTitleText": "登陆",
+			// 		"enablePullDownRefresh": false,
+			// 		"navigationStyle": "custom"
+
+			// 	}
+
+			// },
+			{
+				"path": "pages/Forget-pwd/Forget-pwd",
+				"style": {
+					"navigationBarTitleText": "忘记密码",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#87CEEB"
+				}
+
+			},
+			{
+				"path": "pages/Forget-pwd/RecoveryBtn",
+				"style": {
+					"navigationBarTitleText": "忘记密码",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#87CEEB"
+				}
+			
+			},
+			
+			
+			
+			{
+				"path": "pages/register/register",
+				"style": {
+					"navigationBarTitleText": "注册",
+					"enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#87CEEB"
+				}
+
+			},
+			{
+				"path": "pages/site/site",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			},
+			{
+				"path": "pages/kind/kind",
+				"style": {
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+
+			}
+    ],
+		"globalStyle": {
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "中药识别",
+			"navigationBarBackgroundColor": "#F8F8F8",
+			"backgroundColor": "#F8F8F8",
+			"enablePullDownRefresh": true
+		},
+		"tabBar": {
+			"selectedColor": "#007AFF",
+			"color": "#555555",
+			"list": [
+				{
+					"text": "首页",
+					"pagePath": "pages/index/index",
+					"iconPath": "static/icon/shouye.png",
+					"selectedIconPath": "static/icon/shouye1.png"
+				},
+				{
+					"text": "趣味学习",
+					"pagePath": "pages/study/study",
+					"iconPath": "static/icon/study.png",
+					"selectedIconPath": "static/icon/study1.png"
+				},
+				{
+					"text": "个人页面",
+					"pagePath": "pages/mine/mine",
+					"iconPath": "static/icon/mine.png",
+					"selectedIconPath": "static/icon/mine1.png"
+				}
+				// ,
+				// {
+				// 	"text": "登录",
+				// 	"pagePath": "pages/login/login",
+				// 	"iconPath": "static/icon/denglu.png",
+				// 	"selectedIconPath": "static/icon/denglu1.png"
+				// }
+			]
+		},
+		"condition": { //模式配置，仅开发期间生效
+			"current": 0, //当前激活的模式(list 的索引项)
+			"list": [{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}]
+		}
+	}

@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['bannerClick']]]]}}" bindtap="__e"><view class="editbanner"><label class="_span">{{left}}</label><label class="_span"><slot name="right"></slot></label></view></view>
